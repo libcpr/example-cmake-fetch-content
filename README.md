@@ -15,9 +15,19 @@ cmake --build .
 ## Executing
 
 Form inside the `build/` directory run:
+
+### Linux
+
 ```bash
 ./cpr_example
 ```
+
+### Windows
+
+```bash
+.\Debug\cpr_example.exe
+```
+
 
 This then should produce the following output:
 ```
