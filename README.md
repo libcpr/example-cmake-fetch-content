@@ -1,6 +1,8 @@
 # CMake FetchContent Example
 A minimal example for using cpr via FetchContent in CMake.
 
+Also shows how to use C++ 20 modules. This requires gcc >= 14.1.0.
+
 ## Building
 
 ```bash
