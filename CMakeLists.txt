@@ -29,7 +29,7 @@ endif()
 
 include(FetchContent)
 FetchContent_Declare(cpr GIT_REPOSITORY https://github.com/libcpr/cpr.git
-                         GIT_TAG 1.10.5) # The commit hash for 1.10.x. Replace with the latest from: https://github.com/libcpr/cpr/releases
+                         GIT_TAG 1.11.0) # The commit hash for 1.11.x. Replace with the latest from: https://github.com/libcpr/cpr/releases
 FetchContent_MakeAvailable(cpr)
 
 target_link_libraries(cpr_example PRIVATE cpr::cpr)
